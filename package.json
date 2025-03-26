@@ -1,0 +1,22 @@
+{
+  "name": "tina-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "Biblioteca para acessar a IA Tina via Dify API",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EliobrosTech/tina-api.git"
+  },
+  "keywords": ["tina", "ai", "dify", "chatbot", "inteligencia-artificial"],
+  "author": "Eliobros Tech",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  }
+}
